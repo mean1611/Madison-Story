@@ -21,7 +21,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Debug: Check file structure
+      - name: "Debug: Check file structure"
         run: ls -la ${{ github.workspace }}
 
       - name: Ensure package.json exists
