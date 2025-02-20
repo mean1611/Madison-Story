@@ -71,14 +71,10 @@ jobs:
         working-directory: my-app
         run: ${{ env.runner }} next build
 
-      - name: Export static site
-        working-directory: my-app
-        run: ${{ env.runner }} next export
-
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: my-app/out
+          path: my-app/out # ✅ ใช้ path ใหม่ที่ออกมาอัตโนมัติจาก next build (static export)
 
   deploy:
     environment:
