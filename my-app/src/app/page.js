@@ -45,7 +45,7 @@ export default function Home() {
       answer6: "Safer",
       answer7: "Anomaly"
     };
-    return correctAnswers[name] === value;
+    return correctAnswers[name].toLowerCase() === value.toLowerCase();
   };
 
   return (
