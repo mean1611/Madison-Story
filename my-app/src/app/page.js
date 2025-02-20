@@ -54,12 +54,12 @@ export default function Home() {
         <div className="relative font-sans before:absolute before:w-full before:h-full before:inset-0 before:bg-black before:opacity-50 before:z-10">
           <img src="https://cdn.discordapp.com/attachments/1296851878692524057/1304839096329437194/RNI-Films-IMG-466F0B1B-8A99-427B-8E05-BAA00D0CD34B.png?ex=67b7fb5b&is=67b6a9db&hm=484fa02bf2bbe97fb68dedd12670565cfa5276a9edbb0db21454e5a6134d95e4&" alt="Banner Image" className="absolute inset-0 w-full h-full object-cover" />
           <div className="min-h-[350px] relative z-50 h-full max-w-6xl mx-auto flex flex-col justify-center items-center text-center text-white p-6">
-            <h2 className="sm:text-4xl text-2xl font-bold mb-6">Wellcome to Madison Story.</h2>
-            <p className="sm:text-lg text-base text-center text-gray-200">This website create for answer the qusetion.</p>
+            <h2 className="sm:text-4xl text-2xl font-bold mb-6">Welcome to Madison's Story.</h2>
+            <p className="sm:text-lg text-base text-center text-gray-200">"This website is created for answering questions."</p>
             <button
               type="button"
               className="mt-12 bg-transparent text-white text-base py-3 px-6 border border-white rounded-lg hover:bg-white hover:text-black transition duration-300">
-              Thank for join my game.
+              Thanks for joining my game.
             </button>
           </div>
           กูให้มาเล่นตอบคำถามในสตอรี่กู ยังจะมาหาวิธีโกงเดี๋ยวกูตี ส่วนใครที่เจอข้อความนี้ คำตอบแรกคือนี้เลยน้อง https://www.youtube.com/watch?v=xvFZjo5PgG0 
