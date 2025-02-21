@@ -52,7 +52,7 @@ export default function Home() {
     <div className="flex flex-col items-center justify-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <header className="w-full">
         <div className="relative font-sans before:absolute before:w-full before:h-full before:inset-0 before:bg-black before:opacity-50 before:z-10">
-          <img src="https://cdn.discordapp.com/attachments/1296851878692524057/1304839096329437194/RNI-Films-IMG-466F0B1B-8A99-427B-8E05-BAA00D0CD34B.png?ex=67b7fb5b&is=67b6a9db&hm=484fa02bf2bbe97fb68dedd12670565cfa5276a9edbb0db21454e5a6134d95e4&" alt="Banner Image" className="absolute inset-0 w-full h-full object-cover" />
+          <img src="https://cdn.discordapp.com/attachments/1296851878692524057/1304839096329437194/RNI-Films-IMG-466F0B1B-8A99-427B-8E05-BAA00D0CD34B.png?ex=67b94cdb&is=67b7fb5b&hm=06dc58302ff112eb71f01f77a3f2b2de703e2eb78057bde581425b5c4acff099&" alt="Banner Image" className="absolute inset-0 w-full h-full object-cover" />
           <div className="min-h-[350px] relative z-50 h-full max-w-6xl mx-auto flex flex-col justify-center items-center text-center text-white p-6">
             <h2 className="sm:text-4xl text-2xl font-bold mb-6">Welcome to Madison's Story.</h2>
             <p className="sm:text-lg text-base text-center text-gray-200">"This website is created for answering questions."</p>
@@ -62,7 +62,7 @@ export default function Home() {
               Thanks for joining my game.
             </button>
           </div>
-          กูให้มาเล่นตอบคำถามในสตอรี่กู ยังจะมาหาวิธีโกงเดี๋ยวกูตี ส่วนใครที่เจอข้อความนี้ คำตอบแรกคือนี้เลยน้อง https://www.youtube.com/watch?v=xvFZjo5PgG0 
+          { /* กูให้มาเล่นตอบคำถามในสตอรี่กู ยังจะมาหาวิธีโกงเดี๋ยวกูตี ส่วนใครที่เจอข้อความนี้ คำตอบแรกคือนี้เลยน้อง https://www.youtube.com/watch?v=xvFZjo5PgG0 */} 
         </div>
       </header>
       <main className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
